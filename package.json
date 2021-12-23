@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "discord.js": "^12.5.3",
+    "fs": "^0.0.1-security",
+    "opus": "^0.0.0",
+    "yt-search": "^2.10.2",
+    "ytdl-core": "^4.9.2"
+  },
+  "name": "taco-shack",
+  "version": "1.0.0",
+  "description": "Taco Shack Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
