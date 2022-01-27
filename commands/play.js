@@ -98,7 +98,7 @@ const video_player = async (guild, song) => {
         song_queue.songs.shift();
         video_player(guild, song_queue.songs[0]);
     });
-    await song_queue.text_channel.send(`🎶 Now playing **${song.title}**`)
+    await song_queue.text_channel.send(`🎶 Taco Shack is Now playing **${song.title}**`)
 }
 
 const skip_song = (message, server_queue) => {
